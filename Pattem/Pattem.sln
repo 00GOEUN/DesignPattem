@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pattem", "Pattem\Pattem.vcxproj", "{B0F62980-0445-4141-9D57-6ED15EB55DDE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{EACF3EAA-47BB-4850-B551-841B454CEFE2}"
+	ProjectSection(SolutionItems) = preProject
+		Common\Headers.h = Common\Headers.h
+		Common\Struct.h = Common\Struct.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
